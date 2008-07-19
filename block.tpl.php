@@ -1,3 +1,4 @@
+<!--  Block Start -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody><tr>
 <td class="navheadleft" style="background-image: url(<?php print base_path() . path_to_theme() ?>/images/navtop.gif);" height="63" width="100%"><img alt="" src="<?php print base_path() . path_to_theme() ?>/images/blank.gif" border="0" height="0" width="1"><br><div style="padding-left: 11px;" align="left"><img alt="" src="<?php print base_path() . path_to_theme() ?>/images/blank.gif" border="0" height="10" width="18">
@@ -35,3 +36,4 @@
   <td><img alt="" src="<?php print base_path() . path_to_theme() ?>/images/blank.gif" border="0" height="5" width="1"></td>
  </tr>
 </tbody></table>
+<!-- Block End -->

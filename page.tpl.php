@@ -93,9 +93,19 @@
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
 <tbody><tr>
 <td height="80" valign="top">
-
-<?php print $content ?>
-
+<?php print $breadcrumb; ?>
+<?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
+<?php if ($tabs): print '<div id="tabs-wrapper" class="clear-block">'; endif; ?>
+<?php if ($title): print '<h2'. ($tabs ? ' class="with-tabs"' : '') .'>'. $title .'</h2>'; endif; ?>
+<?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul></div>'; endif; ?>
+<?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
+<?php if ($show_messages && $messages): print $messages; endif; ?>
+<?php print $help; ?>
+<div class="clear-block">
+  <?php print $content ?>
+</div>
+<?php print $feed_icons ?>
+<!-- <div id="footer"><?php print $footer_message . $footer ?></div> -->
 
 <table border="0" cellpadding="0" cellspacing="0">
  <tbody><tr>

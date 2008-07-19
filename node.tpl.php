@@ -1,7 +1,15 @@
+<!--  Node start -->
 <table class="contentbody" cellpadding="4" cellspacing="1" width="100%">
  <tbody><tr>
   <td class="heads"><a class="heads" href="<?php print $node_url ?>"><?php print $title ?></a></td>
  </tr>
+ <?php if ($submitted): ?>
+ <tr>
+   <td class="heads">
+     <span class="submitted"><?php print $submitted; ?></span>
+   </td>
+ </tr>
+ <?php endif; ?> 
  <tr>
   <td class="contentodd">
 <?php print $content ?>	
@@ -32,3 +40,4 @@
   <td><img alt="" src="<?php print base_path() . path_to_theme() ?>/images/blank.gif" border="0" height="5" width="1"></td>
  </tr>
 </tbody></table>
+<!--  Node End -->
