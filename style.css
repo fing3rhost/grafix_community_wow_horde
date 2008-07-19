@@ -1,0 +1,309 @@
+body	{ background-color: #080808;
+ margin: 0px; 
+ font-family: Tahoma, Verdana, Helvetica, Arial; 
+ color: #9F930B; 
+ font-size: 11px; 
+ scrollbar-base-color: #000000;}
+
+font {
+ font-size: 11px;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px;
+ color: #9F930B;}
+
+table.standard,
+table.userhead,
+table.userbody,
+table.userbottom,
+table.quote,
+table.contenthead,
+table.contentbody,
+table.contentbottom,
+table.forumhead,
+table.forumbody,
+table.forumbottom,
+table.event,
+table.commentbody  {
+ background: #0B0D12;}
+
+td, th {
+ font-size: 11px;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ color: #D37B08;}
+
+hr {
+ color: #1D1D1D;}
+
+input, 
+option, 
+select,
+textarea {
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px;
+ color: #D37B08;
+ background: #552305;}
+
+.radio, .checkbox {background: none;}
+.w90	{width: 90%;}
+
+
+.big {
+ font-size: 11px;}
+
+.small, .forumedit {
+ font-size: 10px;}
+
+.bg, .bgsmall {
+ color: #9F930B;}
+
+.bgsmall {
+ font-size: 10px;}
+
+a, a.forumcat, a.forumthread {
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px;}
+
+a:link, a:visited,
+a.forumcat:link, a.forumcat:visited, 
+a.forumthread:link, a.forumthread:visited {
+ color: #AF531C;}
+
+a:hover, a:active,
+a.forumcat:active, a.forumcat:hover,
+a.forumthread:active, a.forumthread:hover {
+ color: #DF6014;}
+
+a.big:hover, a.big:active {
+ color: #DF6014;}
+
+a.small:hover, a.small:active {
+ color: #DF6014;}
+
+.heads, .headssmall {
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ color: #DF6014;
+ }
+a.heads, td.heads, th.heads {
+ font-size: 11px;
+ }
+
+td.heads, th.heads {
+ background-color: #; background-image: url(<?php print base_path() . path_to_theme() ?>/images/head.jpg);}
+
+
+a.heads:link, 
+a.heads:visited {
+ color: #DF6014;
+ }
+
+a.heads:active, 
+a.heads:hover {
+ color: #505050;
+}
+
+a.headssmall, font.headssmall {
+ font-size: 10px;}
+
+a.headssmall:link, 
+a.headssmall:visited {
+ color: #DF6014;
+ }
+
+a.headssmall:active, a.headssmall:hover {
+ color: #505050;}
+
+td,th {color: #D37B08;}
+
+td.left,
+th.left,
+td.commentleft,
+th.commentleft  {
+ background-color: #303030;
+ color: #D37B08; }
+
+td.right,
+th.right, 
+td.commentright,
+th.commentright {
+ background-color: #2F2F2F;
+ color: #D37B08; }
+
+td.standard,
+th.standard,
+td.event,
+th.event {
+ background-color: #161616;
+ color: #D37B08; }
+
+td.highlight,
+th.highlight {
+ background-color: #202020;
+ color: #D37B08; }
+
+td.highlightsmall,
+th.highlightsmall {
+ background-color: #202020;
+ color: #D37B08;
+ font-size: 10px; }
+
+td.odd,
+th.odd,
+td.contentodd,
+th.contentodd,
+td.forum1,
+
+th.forum1 {
+ background-color: #303030;
+ color: #D37B08; 
+ }
+
+td.odd2,
+th.odd2,
+td.contentodd2,
+th.contentodd2,
+td.forum2,
+th.forum2 {
+ background-color: #303030;
+ color: #D37B08; 
+ }
+
+td.even,
+th.even,
+td.contenteven,
+th.contenteven,
+td.forum3,
+th.forum3 {
+ background-color: #202020;
+ color: #D37B08;  
+ }
+
+td.even2,
+th.even2,
+td.contenteven2,
+th.contenteven2,
+td.forum4,
+th.forum4 {
+ background-color: #585857;
+ color: #D37B08; 
+ }
+
+table.navtabletop,
+table.navtableleft,
+table.navtableright,
+table.navtablebottom {
+ background: #;} 
+
+td.quote {background-color: 999999; font-family: Tahoma, Verdana, Helvetica, Arial; font-size: 11;}
+
+
+td.navheadtop,
+ th.navheadtop,
+td.navheadleft,
+ th.navheadleft,
+td.navheadright,
+ th.navheadright,
+td.navheadbottom,
+ th.navheadbottom {
+ background-color: #;
+ color: #DF6014;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 12px;
+ background-image: url(<?php print base_path() . path_to_theme() ?>/images/);
+ }
+
+A.navheadtop:link,
+A.navheadtop:visited,
+A.navheadleft:link,
+A.navheadleft:visited,
+A.navheadright:link,
+A.navheadright:visited,
+A.navheadbottom:link,
+A.navheadbottom:visited	{
+ text-decoration: underline;
+ color: #DF6014;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 12px; }
+
+A.navheadtop:active,
+A.navheadtop:hover,
+A.navheadleft:active,
+A.navheadleft:hover,
+A.navheadright:active,
+A.navheadright:hover,
+A.navheadbottom:active,
+A.navheadbottom:hover {
+ text-decoration: none;
+ color: #DF6014;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 12px; } 
+ 
+td.navbgtop,
+ th.navbgtop,
+td.navbgleft,
+ th.navbgleft,
+td.navbgright,
+ th.navbgright,
+td.navbgbottom,
+ th.navbgbottom {
+ background-color: #;
+ color: #D37B08;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px; }
+
+A.navtop:link,
+A.navtop:visited,
+A.navleft:link,
+A.navleft:visited,
+A.navright:link,
+A.navright:visited,
+A.navbottom:link,
+A.navbottom:visited	{
+ text-decoration: none;
+ color: #D37B08;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px; }
+
+A.navtop:active,
+A.navtop:hover,
+A.navleft:active,
+A.navleft:hover,
+A.navright:active,
+A.navright:hover,
+A.navbottom:active,
+A.navbottom:hover {
+ text-decoration: none;
+ color: #DF6014;
+ font-family: Tahoma, Verdana, Helvetica, Arial;
+ font-size: 11px;
+ }
+ 
+.heads,
+ .headssmall,
+ .navheadtop,
+ .navheadleft,
+ .navheadright,
+ .navheadbottom 
+{font-weight: bold;}
+
+/* Added for Drupal */
+
+ul {
+  margin: 0.5em 0 1em;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.4em 0 0.4em 1.2em;
+}
+
+ul li.expanded {
+  list-style-type: circle;
+}
+
+ul li.collapsed {
+  list-style-type: disc;
+}
+
+ul li.leaf {
+  list-style-type: square;
+}

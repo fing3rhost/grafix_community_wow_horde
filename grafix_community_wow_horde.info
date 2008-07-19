@@ -1,0 +1,6 @@
+name = WoW Horde Theme
+description = Horde style theme for World of Warcraft.
+version = VERSION
+core = 6.x
+engine = phptemplate
+stylesheets[all][] = style.css
